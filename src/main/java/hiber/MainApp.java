@@ -27,19 +27,19 @@ public class MainApp {
       Car lada = new Car("Ladaa", 21014);
 
       vasya.setCar(volvo);
-      volvo.setUser(vasya);
+
       userService.add(vasya);
 
       petya.setCar(bmw);
-      bmw.setUser(petya);
+
       userService.add(petya);
 
       olga.setCar(suzuki);
-      suzuki.setUser(olga);
+
       userService.add(olga);
 
       sveta.setCar(lada);
-      lada.setUser(sveta);
+      
       userService.add(sveta);
 
       // пользователи с машинами
